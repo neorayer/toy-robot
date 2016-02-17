@@ -1,0 +1,15 @@
+{
+  "name": "toy-robot",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "test": " mocha"
+  }
+}
