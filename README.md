@@ -13,7 +13,7 @@ Download & Install
 -------
 Download zip https://github.com/neorayer/toy-robot/archive/master.zip and unzip it, or just clone repo by git
 
-    git clone git@github.com:neorayer/toy-robot.git
+    git clone https://github.com/neorayer/toy-robot.git
     cd toy-robot
 That's it!
 
