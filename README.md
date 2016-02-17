@@ -38,7 +38,7 @@ Code Description
 * Any **ES6** features have been avoided.
 * The **immutable pattern** is used on robot.js. the state of robot object can not be modified, instead, a new robot object will be created and returned while move(), place(), left() and right().
 * The most **module export method** is 'Class'. Model constructor function is exported directly, so all model objects are created by 'new'. eg, var robot = new Robot(table).
-* The code is developed under **TDD**. [Mocha] is simple and fun, so it be selected as the test framwork.
+* The code is developed under **TDD**. [Mocha] is simple and fun, so it was selected as the test framwork.
 * The **Node 'assert' module** is quite sufficient for this task, it's unnecessary to involve other complex assertion library like [chai], [should.js] or [expect.js]
 * grunt is too heavy to my little robot.
 
