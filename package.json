@@ -2,9 +2,7 @@
   "name": "toy-robot",
   "version": "0.0.1",
   "dependencies": {},
-  "devDependencies": {
-    "grunt": "^0.4.5"
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">=0.12.0"
   },
