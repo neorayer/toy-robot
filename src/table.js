@@ -10,8 +10,8 @@
  * @constructor
  */
 var Table = function(maxX, maxY) {
-    maxX = parseInt(maxX) || 4;
-    maxY = parseInt(maxY) || maxX || 4;
+    maxX = parseInt(maxX, 10) || 4;
+    maxY = parseInt(maxY, 10) || maxX || 4;
     // any number less 0, will be forced to 0.
     this.maxX = maxX < 0 ? 0 : maxX;
     this.maxY = maxY < 0 ? 0 : maxY;

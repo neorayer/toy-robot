@@ -28,8 +28,8 @@ var Robot = function(table, pos, f) {
  */
 Robot.prototype.place = function(x, y, f) {
     var pos = {
-        x: parseInt(x),
-        y: parseInt(y)
+        x: parseInt(x, 10),
+        y: parseInt(y, 10)
     }
 
     if (!this.table.isValidPos(pos.x, pos.y)) 
@@ -54,7 +54,7 @@ Robot.prototype.move = function(steps) {
     if (!this.pos) 
         return this;
 
-    steps = parseInt(steps) || 1;
+    steps = parseInt(steps, 10) || 1;
     var newPos = {x: this.pos.x, y: this.pos.y}; // clone pos
     switch (this.f) {
         case 'NORTH': newPos.y += steps; break;
